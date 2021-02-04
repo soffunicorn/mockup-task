@@ -43,15 +43,22 @@ header.header .left-area  ul.nav-menu li:last-child{
 header.header ul.nav-menu li a{
     color: #767676;
 }
-header.header ul.nav-menu li a span.separator{
+header.header ul.nav-menu li a:hover{
+    text-decoration: unset;
+}
+header.header ul.nav-menu span.separator{
     width: 1px;
     background: #D8D8D8;
     height: 20px;
     display: inline-block;
+    margin: 0 16px;
 }
 header.header ul.nav-menu li:not(:first-child) a{
     padding-left:24px;
 
+}
+header.header ul.nav-menu li:last-child a{
+    padding: unset;
 }
 header.header ul.nav-menu li ul.subnav-menu{
     background: #F1F1F1;
